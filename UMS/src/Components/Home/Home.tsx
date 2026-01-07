@@ -5,6 +5,17 @@ function Home() {
 
   const navigate = useNavigate();
 
+//   fetch("http://localhost:8080/app-1.0.0/register", {
+//   method: "POST",
+//   headers: {
+//     "Content-Type": "application/x-www-form-urlencoded"
+//   },
+//   body: new URLSearchParams({
+//     name: "Bhaskar",
+//     email: "bhaskar@test.com"
+//   })
+// })
+
   return (
     <>
     <div className='flex items-center justify-center mt-40'>
